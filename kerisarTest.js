@@ -13,3 +13,8 @@ function kerisarTest() {
     "https://thumb.cloud.mail.ru/weblink/thumb/xw1/LLmd/Qui7Xbp6g");
   jsTest.appendChild(kerisarPicture);
 }
+
+
+window.onload = function() {
+    kerisarTest();
+}
